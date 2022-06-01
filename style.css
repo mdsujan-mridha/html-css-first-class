@@ -1,0 +1,30 @@
+header{
+    background:  #FFA50280;
+    ;
+}
+
+.logo-section{
+    padding-left: 112px;
+    display: flex;
+    columns: #3C227C;
+    font-size: 21px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-section ul{
+    padding-right: 594px;
+    display: flex;
+    gap: 27px;
+}
+
+.logo-section ul li{
+   list-style: none;
+}
+
+.logo-section ul li a{
+    text-decoration: none;
+    color: #373F41;
+    font-size: 14px;
+}
