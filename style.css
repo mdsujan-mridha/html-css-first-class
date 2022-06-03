@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background:  #FFA50280;
     ;
@@ -11,7 +16,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 
 .logo-section ul{
     padding-right: 594px;
@@ -27,4 +31,55 @@ header{
     text-decoration: none;
     color: #373F41;
     font-size: 14px;
+}
+.hero-item{
+    display: flex;
+    align-items: center;
+    gap: 91px;
+}
+.right{
+   width: 445px;
+   text-align: justify;
+}
+.hero-content{
+    margin-top: 40px;
+    text-align: justify;
+}
+.hero-btn{
+     width: 112px;
+     height: 42px;
+     margin-top: 56px;
+     background: transparent;
+     border: 1px solid red;
+     color: red;
+}
+.services{
+    margin-top: 163px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services-left{
+    margin-left: 122px;
+}
+.content-1{
+    width: 588px;
+    height: 135px;
+    background: #4F55DD;
+    border-radius: 15px;
+}
+.content-1 p{
+    padding: 22px 30px 26px 27px;
+            /* top   left  bottom right
+               */
+    color: #FFFFFF;           
+}
+.content-2,
+.content-3{
+    margin-top: 75px;
+    width: 588px;
+    height: 135px;
+}
+.services-right{
+    margin-right: 138px;
 }
